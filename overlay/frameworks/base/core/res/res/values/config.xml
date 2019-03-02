@@ -588,7 +588,11 @@
 
     <!-- Pocket Lock -->
     <bool name="config_pocketUseLightSensor">false</bool>
+    
 	<!-- Hide FOD while Going to sleep from lockscreen to avoid HBM flicker
          or FOD Circle hiding after the screen is put to sleep -->
     <bool name="config_hideFodCircleGoingToSleep">true</bool>
+	   
+    <!-- reference volume index for music stream to limit headphone volume and display warning -->
+    <integer name="config_safe_media_volume_index">17</integer>
 </resources>
