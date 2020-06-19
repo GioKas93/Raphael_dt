@@ -598,4 +598,10 @@
 
     <!-- Screen off delay -->
     <integer name="config_screen_off_delay">10</integer>
+
+    <!-- Flag specifying whether VoLTE TTY is supported -->
+    <bool name="config_carrier_volte_tty_supported">true</bool>
+
+    <!-- Enable dual LTE capability support-->
+    <bool name="config_dual_LTE_capability">true</bool>
 </resources>
