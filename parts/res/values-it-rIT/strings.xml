@@ -32,5 +32,28 @@
     <string name="dc_dimming_enable_title">DC Dimming</string>
     <string name="dc_dimming_enable_summary">Riduce lo sforzo visivo in condizioni di poca luminosità (Potrebbe ridurre la qualità delle immagini e la fedeltà cromatica)</string>
     <string name="dc_dimming_enable_summary_not_supported">DC Dimming non è supportato dal tuo kernel.</string>
+    
+    <!-- Pick-up to wake gesture-->
+    <string name="wake_gesture_title">Svegliare</string>
+    <string name="wake_gesture_summary">Svegliare il dispositivo al posto della notifica pulsante</string>
 
+    <!-- Popup camera strings -->
+    <string name="popup_camera_tip">Avvertimento</string>
+    <string name="popup_camera_takeback_failed_calibrate">Impossible chiudere la fotocamera frontale. Provare a calibrare il motore.</string>
+    <string name="popup_camera_popup_failed_calibrate">Impossible aprire la fotocamera frontale. Provare a calibrare il motore.</string>
+    <string name="popup_camera_calibrate_running">Non è possible usare la fotocamera frontale durante la calibrazione.</string>
+    <string name="popup_camera_calibrate_now">Calibra la popup camera</string>
+    <string name="popup_camera_calibrate_failed">Calibrazione fallita</string>
+    <string name="popup_camera_calibrate_success">Calibrato con successo.</string>
+
+    <!-- Thermal profiles -->
+    <string name="thermal_title">Profili termici</string>
+    <string name="thermal_summary">Regola i profili termici per prestazioni ottimali</string>
+    <string name="thermal_default">Predefinito</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_dialer">Telefono</string>
+    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_streaming">Streaming</string>
 </resources>
