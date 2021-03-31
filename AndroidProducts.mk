@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_raphael.mk
+    $(LOCAL_DIR)/nitrogen_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_raphael-user \
-    ssos_raphael-userdebug \
-    ssos_raphael-eng
+    nitrogen_raphael-user \
+    nitrogen_raphael-userdebug \
+    nitrogen_raphael-eng
