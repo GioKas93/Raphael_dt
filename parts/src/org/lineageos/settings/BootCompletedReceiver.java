@@ -33,6 +33,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (DEBUG)
             Log.d(TAG, "Received boot completed intent");
         PopupCameraUtils.startService(context);
-        ThermalUtils.startService(context);
+        ThermalUtils.initialize(context);
     }
 }
