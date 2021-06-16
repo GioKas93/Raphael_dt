@@ -45,5 +45,9 @@
 
      <!-- Whether device supports in-display fingerprint when screen is turned off -->
     <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
+     
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+    <bool name="config_defaultCABC">true</bool>
     
 </resources>
