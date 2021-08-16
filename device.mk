@@ -146,11 +146,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsuspend
 # GoogleCamera
-PRODUCT_PACKAGES += \
-    GoogleCamera
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/GoogleCamera/privapp-permissions-googlecamera.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-googlecamera.xml
+$(call inherit-product-if-exists, vendor/GoogleCamera/GoogleCamera.mk)
 
 # Google Photos
 PRODUCT_COPY_FILES += \
