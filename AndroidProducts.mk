@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nitrogen_raphael.mk
+    $(LOCAL_DIR)/aicp_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    nitrogen_raphael-user \
-    nitrogen_raphael-userdebug \
-    nitrogen_raphael-eng
+    aicp_raphael-user \
+    aicp_raphael-userdebug \
+    aicp_raphael-eng
